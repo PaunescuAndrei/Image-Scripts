@@ -1,5 +1,5 @@
 $python = "python"
-$script = "D:\Wallpapers\scripts\convertwebp.py"
+$script = "E:\Wallpapers\scripts\convertwebp.py"
 $customArgs = "-gtmp", "-e"
 $argumentsString = ($args | ForEach-Object { '"' + $_ + '"' }) -join ' '
 $arguments = $customArgs + $argumentsString
